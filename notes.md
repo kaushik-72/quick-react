@@ -34,4 +34,7 @@ in js we call a fn by App() , whereas in react we use <App/>
     states are used to store data -> mutable/local
     props are used to share data among the component(parent to child) -> immutable/global
 
+    for child to parent we use callback.
+    
+
 

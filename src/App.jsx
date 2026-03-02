@@ -8,6 +8,7 @@ import StateTaskClass1 from "./AllTopics/02_States/StateTaskClass1";
 import ThemeChange from "./AllTopics/02_States/ThemeChange";
 import PropsChild from "./AllTopics/03_Props/PropsChild";
 import PropsParents from "./AllTopics/03_Props/PropsParents";
+import ChildrenProps from "./AllTopics/04_ChildrenProps/ChildrenProps";
 
 const App = ()=>{
 
@@ -22,8 +23,10 @@ const App = ()=>{
           {/* <StateTask1/> */}
           {/* <StateTaskClass1/> */}
           {/* <StatesInCBC/> */}
-          <PropsParents/>
-          <PropsChild/>
+          {/* <PropsParents/> */}
+          {/* <PropsChild/> */}
+          <ChildrenProps/>
+          
         </>
     );
 };
