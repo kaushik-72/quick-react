@@ -35,6 +35,15 @@ in js we call a fn by App() , whereas in react we use <App/>
     props are used to share data among the component(parent to child) -> immutable/global
 
     for child to parent we use callback.
+
+    real Dom / virtual dom / diffing algo / patching => reconciltaion
+
+    controlled => useState
+    uncontrolled => useRef
+
+    setAttribute -> event propagation -> event obj
+
+    ternary operator - conditional operator - short circuit method
     
 
 
