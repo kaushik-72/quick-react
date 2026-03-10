@@ -10,6 +10,8 @@ import PropsChild from "./AllTopics/03_Props/PropsChild";
 import PropsParents from "./AllTopics/03_Props/PropsParents";
 import ChildrenProps from "./AllTopics/04_ChildrenProps/ChildrenProps";
 import ControlledForms1 from "./AllTopics/08_Forms/ControlledForms1";
+import ControlledForms2 from "./AllTopics/08_Forms/ControlledForms2";
+import ControlledTask1 from "./AllTopics/08_Forms/ControlledTask1";
 
 const App = ()=>{
 
@@ -27,7 +29,9 @@ const App = ()=>{
           {/* <PropsParents/> */}
           {/* <PropsChild/> */}
           {/* <ChildrenProps/> */}
-          <ControlledForms1/>
+          {/* <ControlledForms1/> */}
+          <ControlledTask1/>
+          {/* <ControlledForms2/> */}
           
         </>
     );
