@@ -12,6 +12,7 @@ import ChildrenProps from "./AllTopics/04_ChildrenProps/ChildrenProps";
 import ControlledForms1 from "./AllTopics/08_Forms/ControlledForms1";
 import ControlledForms2 from "./AllTopics/08_Forms/ControlledForms2";
 import ControlledTask1 from "./AllTopics/08_Forms/ControlledTask1";
+import UpliftingParent from "./AllTopics/05_StateUplifting/UpliftingParent";
 
 const App = ()=>{
 
@@ -29,8 +30,9 @@ const App = ()=>{
           {/* <PropsParents/> */}
           {/* <PropsChild/> */}
           {/* <ChildrenProps/> */}
+          <UpliftingParent/>
           {/* <ControlledForms1/> */}
-          <ControlledTask1/>
+          {/* <ControlledTask1/> */}
           {/* <ControlledForms2/> */}
           
         </>
