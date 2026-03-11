@@ -13,6 +13,10 @@ import ControlledForms1 from "./AllTopics/08_Forms/ControlledForms1";
 import ControlledForms2 from "./AllTopics/08_Forms/ControlledForms2";
 import ControlledTask1 from "./AllTopics/08_Forms/ControlledTask1";
 import UpliftingParent from "./AllTopics/05_StateUplifting/UpliftingParent";
+import TodoWrapper from "./Todo App/TodoWrapper";
+// import ContextProvider from "./Todo App/ContextProvider";
+import TodoContextProvider from "./Todo App/ContextProvider"
+
 
 const App = ()=>{
 
@@ -30,10 +34,14 @@ const App = ()=>{
           {/* <PropsParents/> */}
           {/* <PropsChild/> */}
           {/* <ChildrenProps/> */}
-          <UpliftingParent/>
+          {/* <UpliftingParent/> */}
           {/* <ControlledForms1/> */}
           {/* <ControlledTask1/> */}
           {/* <ControlledForms2/> */}
+          <TodoContextProvider>
+            <TodoWrapper/>
+          </TodoContextProvider>
+          
           
         </>
     );

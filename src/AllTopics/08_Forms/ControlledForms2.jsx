@@ -17,7 +17,7 @@ const ControlledForms2 = () => {
         //* ...formData (spread)to store and handle empty data
 
     }
-    //* handling the error of "You provided a `value` prop to a form field without an `onChange` handler."
+    //* handling the error: "You provided a `value` prop to a form field without an `onChange` handler."
 
     const handleSubmit = (e)=>{
         e.preventDefault();
