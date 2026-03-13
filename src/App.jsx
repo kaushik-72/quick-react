@@ -16,6 +16,9 @@ import UpliftingParent from "./AllTopics/05_StateUplifting/UpliftingParent";
 import TodoWrapper from "./Todo App/TodoWrapper";
 // import ContextProvider from "./Todo App/ContextProvider";
 import TodoContextProvider from "./Todo App/ContextProvider"
+import ReactCss from "./AllTopics/09_ReactCss/ReactCss";
+import TailwindPractise1 from "./AllTopics/10_TailwindCSS/TailwindPractise1";
+import UncontrolledForms from "./AllTopics/08_Forms/UncontrolledForms";
 
 
 const App = ()=>{
@@ -38,9 +41,13 @@ const App = ()=>{
           {/* <ControlledForms1/> */}
           {/* <ControlledTask1/> */}
           {/* <ControlledForms2/> */}
-          <TodoContextProvider>
+          {/* <TodoContextProvider>
             <TodoWrapper/>
-          </TodoContextProvider>
+          </TodoContextProvider> */}
+
+          {/* <ReactCss/> */}
+          {/* <TailwindPractise1/> */}
+          <UncontrolledForms/>
           
           
         </>

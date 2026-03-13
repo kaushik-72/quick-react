@@ -44,6 +44,32 @@ in js we call a fn by App() , whereas in react we use <App/>
     setAttribute -> event propagation -> event obj
 
     ternary operator - conditional operator - short circuit method
+
+    
+    npm install @tailwindcss/vite
+
+
+    inside vite.config.js add these
+    import tailwindcss from '@tailwindcss/vite'
+
+update
+
+export default defineConfig({
+  plugins: [react()],
+})
+
+to this
+
+export default defineConfig({
+plugins: [react(),tailwindcss()],
+})
+
+inside global index.css
+@import "tailwindcss";
+
+
+
+
     
 
 
