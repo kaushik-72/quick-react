@@ -67,6 +67,27 @@ plugins: [react(),tailwindcss()],
 inside global index.css
 @import "tailwindcss";
 
+useRef (returns) - > {current: undefined}
+
+lifecycle has 3 phase
+-mounting
+-updating
+-unmounting
+
+*** methods - > componentDidUpdate , componentDidMount
+
+initaly in cbc we have null
+
+** in fbc we don't need render ; does that by default
+
+** closure
+
+useState (returns) -> arr[undefined,function] : [state,setState]
+useRef (returns) - > obj{current: undefined}
+useEffect (returns) - > nothing(undefined) -> cleanup function
+useContext (returns) -> current context value
+
+
 
 
 
