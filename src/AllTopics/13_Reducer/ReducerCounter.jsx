@@ -14,7 +14,7 @@ const reducerFunc = (prevState,action)=>{  //~ last
 
 
 const ReducerCounter = () => {
-    const [count,dispatch]=useReducer(reducerFunc,initialState);
+    const [count,dispatch]=useReducer(reducerFunc,initialState); 
 
   return (
     <div>

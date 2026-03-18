@@ -24,6 +24,8 @@ import { useState } from "react";
 import LifeCycleInFBC from "./AllTopics/11_LIfecycle/LifeCycleInFBC";
 import Todos from "./AllTopics/12_Fetch/Todos";
 import ReducerCounter from "./AllTopics/13_Reducer/ReducerCounter";
+import ReducerTodo from "./AllTopics/13_Reducer/ReducerTodo";
+import Users from "./AllTopics/14_CustomHooks/Users";
 
 
 const App = ()=>{
@@ -60,7 +62,9 @@ const App = ()=>{
 
           {/* <LifeCycleInFBC/> */}
           {/* <Todos/> */}
-          <ReducerCounter/>
+          {/* <ReducerCounter/> */}
+          {/* <ReducerTodo/> */}
+          <Users/>
           
           
         </>
