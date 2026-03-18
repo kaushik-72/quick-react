@@ -86,6 +86,14 @@ useState (returns) -> arr[undefined,function] : [state,setState]
 useRef (returns) - > obj{current: undefined}
 useEffect (returns) - > nothing(undefined) -> cleanup function
 useContext (returns) -> current context value
+useReducer - > [count,dispatch]
+
+useReducer is a state managment hook used for complex state managment
+
+redux = usecontext + usereduce
+// task : with the help of usereducer make the todo
+
+
 
 
 

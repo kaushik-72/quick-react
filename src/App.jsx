@@ -22,6 +22,8 @@ import UncontrolledForms from "./AllTopics/08_Forms/UncontrolledForms";
 import LifeCycleInCBC from "./AllTopics/11_LIfecycle/LifeCycleInCBC";
 import { useState } from "react";
 import LifeCycleInFBC from "./AllTopics/11_LIfecycle/LifeCycleInFBC";
+import Todos from "./AllTopics/12_Fetch/Todos";
+import ReducerCounter from "./AllTopics/13_Reducer/ReducerCounter";
 
 
 const App = ()=>{
@@ -56,7 +58,9 @@ const App = ()=>{
           {/* <button onClick={handleToggle}>toggle me</button>
           {toggle && <LifeCycleInCBC/>} */}
 
-          <LifeCycleInFBC/>
+          {/* <LifeCycleInFBC/> */}
+          {/* <Todos/> */}
+          <ReducerCounter/>
           
           
         </>
