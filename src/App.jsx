@@ -26,6 +26,7 @@ import Todos from "./AllTopics/12_Fetch/Todos";
 import ReducerCounter from "./AllTopics/13_Reducer/ReducerCounter";
 import ReducerTodo from "./AllTopics/13_Reducer/ReducerTodo";
 import Users from "./AllTopics/14_CustomHooks/Users";
+import MemoExample from "./AllTopics/15_MemoAndCallback/MemoExample";
 
 
 const App = ()=>{
@@ -64,8 +65,8 @@ const App = ()=>{
           {/* <Todos/> */}
           {/* <ReducerCounter/> */}
           {/* <ReducerTodo/> */}
-          <Users/>
-          
+          {/* <Users/> */}
+          <MemoExample/>          
           
         </>
     );

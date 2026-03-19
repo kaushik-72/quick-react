@@ -93,6 +93,15 @@ useReducer is a state managment hook used for complex state managment
 redux = usecontext + usereduce
 // task : with the help of usereducer make the todo
 
+how to optimize react-app -> usememo and usecallback
+
+useMemo(()=>{},[dependency array])
+
+memo is a higher order coponent
+react.memo is used to memoize a componet until its props are unchanged
+
+useCallBack --> it returns memoized function
+
 
 
 
