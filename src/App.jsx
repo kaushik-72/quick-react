@@ -27,6 +27,7 @@ import ReducerCounter from "./AllTopics/13_Reducer/ReducerCounter";
 import ReducerTodo from "./AllTopics/13_Reducer/ReducerTodo";
 import Users from "./AllTopics/14_CustomHooks/Users";
 import MemoExample from "./AllTopics/15_MemoAndCallback/MemoExample";
+import Dashboard from "./AllTopics/16_Routing/Dashboard";
 
 
 const App = ()=>{
@@ -66,7 +67,8 @@ const App = ()=>{
           {/* <ReducerCounter/> */}
           {/* <ReducerTodo/> */}
           {/* <Users/> */}
-          <MemoExample/>          
+          {/* <MemoExample/>           */}
+          <Dashboard/>
           
         </>
     );

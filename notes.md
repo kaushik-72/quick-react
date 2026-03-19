@@ -102,6 +102,8 @@ react.memo is used to memoize a componet until its props are unchanged
 
 useCallBack --> it returns memoized function
 
+npm i react-router-dom
+
 
 
 
