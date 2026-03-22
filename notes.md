@@ -84,7 +84,7 @@ initaly in cbc we have null
 
 useState (returns) -> arr[undefined,function] : [state,setState]
 useRef (returns) - > obj{current: undefined}
-useEffect (returns) - > nothing(undefined) -> cleanup function
+useEffect (returns) - > **lifecycle in fbc nothing(undefined) -> cleanup function
 useContext (returns) -> current context value
 useReducer - > [count,dispatch]
 
@@ -104,6 +104,7 @@ useCallBack --> it returns memoized function
 
 npm i react-router-dom
 
+rcc - > react class componet
 
 
 

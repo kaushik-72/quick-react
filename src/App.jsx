@@ -28,6 +28,12 @@ import ReducerTodo from "./AllTopics/13_Reducer/ReducerTodo";
 import Users from "./AllTopics/14_CustomHooks/Users";
 import MemoExample from "./AllTopics/15_MemoAndCallback/MemoExample";
 import Dashboard from "./AllTopics/16_Routing/Dashboard";
+import CF2 from "./Weekend/08_Forms/CF2";
+import UCF from "./Weekend/08_Forms/UCF";
+import LCICBC from "./Weekend/09_LifeCycle/LCICBC";
+import LCiFBC from "./Weekend/09_LifeCycle/LCiFBC";
+
+
 
 
 const App = ()=>{
@@ -68,7 +74,12 @@ const App = ()=>{
           {/* <ReducerTodo/> */}
           {/* <Users/> */}
           {/* <MemoExample/>           */}
-          <Dashboard/>
+          {/* <Dashboard/> */}
+         {/* <ControlledForms2/> */}
+         {/* <CF2/> */}
+         {/* <UCF/> */}
+         {/* <LCICBC/> */}
+         <LCiFBC/>
           
         </>
     );
