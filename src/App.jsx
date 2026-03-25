@@ -32,6 +32,10 @@ import CF2 from "./Weekend/08_Forms/CF2";
 import UCF from "./Weekend/08_Forms/UCF";
 import LCICBC from "./Weekend/09_LifeCycle/LCICBC";
 import LCiFBC from "./Weekend/09_LifeCycle/LCiFBC";
+import HOC from "./AllTopics/17_Hoc/Hoc";
+import ParentHoc from "./AllTopics/17_Hoc/ParentHoc";
+import ReduxCounter from "./AllTopics/18_Redux/ReduxCounter";
+import VirtualizedList from "./AllTopics/19_Virtualization/VirtualizedList";
 
 
 
@@ -79,7 +83,10 @@ const App = ()=>{
          {/* <CF2/> */}
          {/* <UCF/> */}
          {/* <LCICBC/> */}
-         <LCiFBC/>
+         {/* <LCiFBC/> */}
+         {/* <ParentHoc/> */}
+         {/* <ReduxCounter/> */}
+         <VirtualizedList/>
           
         </>
     );
