@@ -118,6 +118,10 @@ useDispatch -> used to call the actions
 
 npm i react-virtuoso
 
+Outlet is used to call the children comp
+
+//! task -> email , passwrod as obj(console as obj) -> store in session storage -> useNavigate (show the dasboard)
+
 
 
 

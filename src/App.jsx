@@ -36,6 +36,7 @@ import HOC from "./AllTopics/17_Hoc/Hoc";
 import ParentHoc from "./AllTopics/17_Hoc/ParentHoc";
 import ReduxCounter from "./AllTopics/18_Redux/ReduxCounter";
 import VirtualizedList from "./AllTopics/19_Virtualization/VirtualizedList";
+import CrudApp from "./AllTopics/20_CrudApp/CrudApp";
 
 
 
@@ -86,7 +87,8 @@ const App = ()=>{
          {/* <LCiFBC/> */}
          {/* <ParentHoc/> */}
          {/* <ReduxCounter/> */}
-         <VirtualizedList/>
+         {/* <VirtualizedList/> */}
+         <CrudApp/>
           
         </>
     );

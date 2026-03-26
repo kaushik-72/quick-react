@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import {Virtuoso} from "react-virtuoso" //!
+// import {Virtuoso} from "react-virtuoso" //!
+import {Virtuoso} from "react-virtuoso"
 
 const VirtualizedList = () => {
 
@@ -21,7 +22,7 @@ const VirtualizedList = () => {
             Learn Virtualization
         </h1>
 
-        ///~ conditional rendering
+        {/* conditional rendering */}
         {users.length>0?<section>
             {/* {users.map((user)=>{
                 return <div>
