@@ -104,8 +104,19 @@ useCallBack --> it returns memoized function
 
 npm i react-router-dom
 
-rcc - > react class componet
+rcc - > react class component
 
+npm install @reduxjs/toolkit react-redux
+
+virtualization / pagination
+
+import { useSelector } from "react-redux";  
+react-redux this helps in binding redux with react
+
+useSelector is used to access redux's state and returns
+useDispatch -> used to call the actions
+
+npm i react-virtuoso
 
 
 
