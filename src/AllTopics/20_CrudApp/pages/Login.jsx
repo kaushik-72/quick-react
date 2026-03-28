@@ -1,7 +1,36 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const Login = () => {
+
+  const [formData,setformData] = useState({
+    email:"",
+    password:"",
+  })
+
+  const navigate = useNavigate();
+
+  const handleChange = (e)=>{
+    let {name,value} = e.target;
+    setformData({...formData,[name]:value})
+  };
+
+  
+
+  const handleSubmit = (e)=>{
+    e.preventDefault();
+    let payload ={
+      email: formData.email.trim(),
+      password:formData.password.trim(),
+    };
+    console.log(payload);
+
+    sessionStorage.setItem("token", Date.now());
+    navigate("/");
+  }
   return (
     <section className="h-screen bg-gray-100 grid place-items-center">
-      <form className="p-10 bg-white shadow-lg rounded-3xl">
+      <form className="p-10 bg-white shadow-lg rounded-3xl" onSubmit={handleSubmit}>
         <h1 className="font-semibold text-xl mb-5 hover:cursor-pointer">
           Login Form
         </h1>
@@ -12,6 +41,7 @@ const Login = () => {
             name="email"
             id="email"
             placeholder="Enter Email"
+            onChange={handleChange}
             className="border px-4 py-1 border-gray-300 rounded focus:outline focus:outline-blue-500"
           />
         </div>
@@ -23,6 +53,7 @@ const Login = () => {
             name="password"
             id="password"
             placeholder="Enter Password"
+            onChange={handleChange}
             className="border px-4 py-1 border-gray-300 rounded focus:outline focus:outline-blue-500"
           />
         </div>
