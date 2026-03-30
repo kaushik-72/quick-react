@@ -125,6 +125,15 @@ Outlet is used to call the children comp
 
 //? API Call dependencies 
 
+Object destructring
+Dasboard.jsx
+
+usePosts({query,sortby,skip});
+
+usePosts.jsx
+
+export const usePosts = (query,sortby,skip)
+
 
     
 
