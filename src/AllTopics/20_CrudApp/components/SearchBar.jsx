@@ -6,11 +6,11 @@ const SearchBar = ({query,setQuery}) => {
       type="search"
       name="search"
       id="search"
-      placeholder="search here..."
-      className="border"
+      placeholder="Search here..."
+      className=" w-full py-2 ps-2 outline-0"
       value={query}
       onChange={(e)=>setQuery(e.target.value)}
-    ></input>
+    />
   );
 };
 

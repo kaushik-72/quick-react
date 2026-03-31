@@ -134,6 +134,18 @@ usePosts.jsx
 
 export const usePosts = (query,sortby,skip)
 
+Error   : Two console.log objects
+Reason  : React StrictMode runs useEffect twice in development
+Fix     : Not a bug — production runs only once, just ignore it in dev
+
+axios or fetch
+using axios -> less code > stops page refreshc
+
+code splitting/ usememo -> code optimization
+
+task -> css for createuser, hot-toast
+
+prev,next -> css
 
     
 

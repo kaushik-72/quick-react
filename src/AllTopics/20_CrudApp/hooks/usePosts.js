@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 import { BASE_URL, LIMIT } from "../constant";
 
-export const usePosts = ({query,sortby,skip}) =>{
-    const [post,setPost] = useState([]);
+export const usePosts = ({query,sortBy,skip}) =>{
+    const [posts,setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
 
     async function getPosts(){
@@ -20,19 +20,19 @@ export const usePosts = ({query,sortby,skip}) =>{
             let data = await resp.json();
             console.log(data);
 
-            let sortedData = [...data.post];
+            let sortedData = [...data.posts];
             if (sortBy =="title"){
                 sortedData.sort((a,b)=>a.title.localeCompare(b.title));
             }
 
-            if (sortby==="views"){
+            if (sortBy==="views"){
                 sortedData.sort((a,b)=>b.views - a.views);
             }
 
-            
+         setPosts(sortedData);   
         } catch (error) {
             console.log(error);
-            setPost([]);            
+            setPosts([]);            
         } finally{
             setLoading(false);
         }
@@ -40,7 +40,7 @@ export const usePosts = ({query,sortby,skip}) =>{
 
     useEffect(()=>{
         getPosts();
-    },[query,sortby,skip]);  //! data type?
+    },[query,sortBy,skip]);  //! data type?
 
-    return {post,loading};
+    return {posts,loading};
 };

@@ -2,11 +2,11 @@ import { useEffect, useState } from "react"
 
 
 export const useDebounce = (query,delay = 1000) =>{
-    const [debouncedQuery,setdebouncedQuery] = useState("");
+    const [debouncedQuery,setDebouncedQuery] = useState("");
 
     useEffect(()=>{
         let timer = setTimeout(() => {
-           setdebouncedQuery(query); 
+           setDebouncedQuery(query); 
         }, delay);
 
         return()=>clearTimeout(timer);

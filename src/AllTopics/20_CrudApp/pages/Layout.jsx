@@ -3,10 +3,10 @@ import NavBar from "../components/NavBar"
 
 const Layout = () => {
   return (
-    <>
+    <main className="">
         <NavBar/>
         <Outlet/>
-    </>
+    </main>
   )
 }
 
