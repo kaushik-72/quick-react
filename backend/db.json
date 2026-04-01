@@ -2,9 +2,16 @@
   "users": [
     {
       "id": "91bc",
+      "username": "kjhgvghyu",
+      "email": "abc@park.com",
+      "password": "nbgt5678"
+    },
+    {
+      "id": "ab86",
       "username": "ICG526A9216",
-      "email": "abc@gmail.com",
-      "password": "mnhgft67"
+      "email": "abc@park.com",
+      "password": "mnbfr5678"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

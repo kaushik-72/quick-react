@@ -141,11 +141,13 @@ Fix     : Not a bug — production runs only once, just ignore it in dev
 axios or fetch
 using axios -> less code > stops page refreshc
 
-code splitting/ usememo -> code optimization
+code splitting/ easy-loading usememo -> code optimization
 
-task -> css for createuser, hot-toast
+task -> css for createuser ✅, hot-toast
 
-prev,next -> css
+prev,next -> css ✅
+
+closure -> debouncing 
 
     
 
